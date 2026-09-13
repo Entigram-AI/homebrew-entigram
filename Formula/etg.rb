@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/1e/67/4139403b4448cc14c82a5d1f1adece90bcd89f92bd6b9cd7c6e36987e1c6/entigram_ai-2.18.0.tar.gz"
-  sha256 "0807bb78aeac7bffb4d93fbd07fe1780b501c7c966049f3240d98fefe06b4eab"
+  url "https://files.pythonhosted.org/packages/d6/63/0eb535f3c4fcc6d56ce788be83326ecb1c0ae895dd9724b6864ad546d766/entigram_ai-2.19.0.tar.gz"
+  sha256 "b19d71d2d44af73c3d7851f315ce9bd5c0c7d9d7954f82c2d06540e414b67df8"
   license "Apache-2.0"
 
   depends_on "cffi"
@@ -111,8 +111,8 @@ class Etg < Formula
   end
 
   resource "PyJWT" do
-    url "https://files.pythonhosted.org/packages/3b/81/58d0ac84e1ef3a3843791d6954d94c0b33d526c75eeb1efbce9d0a4c4077/pyjwt-2.13.0.tar.gz"
-    sha256 "41571c89ca91598c79e8ef18a2d07367d4810fbbd6f637794879baf1b7703423"
+    url "https://files.pythonhosted.org/packages/af/c3/8a3b59c25070cc61dc517fbdfa5dc0904670c96f605cc69759dc09166b99/pyjwt-2.14.0.tar.gz"
+    sha256 "77283c83fb56ecf566a886c757a714bc83668e38156de2cce8263302f42e0b86"
   end
 
   resource "python-multipart" do
